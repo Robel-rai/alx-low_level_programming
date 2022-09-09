@@ -1,4 +1,4 @@
-Mandatory:- All the mandatory question have been submitted and are functiong as the system requirment.
+Mndatory:- All the mandatory question have been submitted and are functiong as the system requirment.
 	0. Positive anything is better than negative nothing
 	1. The last digit
 	2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game	mandatory
@@ -9,4 +9,8 @@ Mandatory:- All the mandatory question have been submitted and are functiong as 
 	7. Smile in the mirror
 	8. Hexadecimal
 	9. Patience, persistence and perspiration make an unbeatable combination for success
-Advanced:- 
+Advanced:- All the mandatory tasks have been cheked and are functioning to the system requirements
+	10. Inventing is a combination of brains and materials. The more brains you use, the less material you need 	#advanced
+	11. The success combination in business is: Do what you do better... and: do more of what you do...		#advanced
+	12. Software is eating the World										#advanced
+
