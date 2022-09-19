@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * puts_half - function responsible for writing the 2nd half of a string
+ * put_half - prints the second half of the string
  * @len: gets the starting number
  * @i: iteration program
  * @n: number of the half
