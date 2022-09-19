@@ -2,6 +2,7 @@
 
 /*
  * puts_half - function responsible for writing the 2nd half of a string
+ * @len: gets the starting number
  * @i: iteration program
  * @n: number of the half
  * Return: void
@@ -17,13 +18,13 @@ void puts_half(char *str)
 	{
 		len++;
 	}
-	if (len%2 != 0)
+	if (len % 2 != 0)
 	{
-		san = (len+1)/2;
+		san = (len + 1) / 2;
 	}
 	else
 	{
-		san = len/2;
+		san = len / 2;
 	}
 	for (i = san; str[i] != '\0'; i++)
 	{
