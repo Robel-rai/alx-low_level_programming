@@ -6,7 +6,7 @@
  * Return: the pointer to dest.
  */
 
-char *string_toupper(char *s)
+void rev_string(char *s)
 {
 	int count = 0;
 
