@@ -1,11 +1,10 @@
 #include "main.h"
 
 /*
- * put_half - prints the second half of the string
+ * puts_half - prints the second half of the string
  * @len: gets the starting number
  * @i: iteration program
  * @n: number of the half
- * Description: if striung size is odd the len+1/2 will solve it.
  */
 
 void puts_half(char *str)
