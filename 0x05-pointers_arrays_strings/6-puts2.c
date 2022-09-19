@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * put2 - jumpes every odd number and prints the odd one
- * @i: input string.
+ * puts2 - jumpes every odd number and prints the odd one
+ * @str: points to the string
  * Return: the pointer to dest.
  */
 
