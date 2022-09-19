@@ -2,14 +2,14 @@
 /**
  * reverse_array - reverses the content of an array
  * of integers.
- * @a: array.
- * @n: number of elements of the array.
+ * @s: number of elements of the array.
  * Return: no return.
  */
 
 void print_rev(char *s)
 {
 	int i = 0;
+	
 	while (s[i])
 		i++;
 
