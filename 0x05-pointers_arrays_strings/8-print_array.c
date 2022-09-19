@@ -1,3 +1,4 @@
+#include <studo.h>
 #include "main.h"
 
 /*
