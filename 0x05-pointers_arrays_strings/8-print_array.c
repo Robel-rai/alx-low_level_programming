@@ -2,10 +2,12 @@
 #include <stdio.h>
 /*
  * print_array - responsible for printing out the materials
- * @i: is the program itration determiner
- * @
+ * 
  * Description: the program is going to print out an array.
  * It will be from the stored array deppending on the give int n
+ *
+ * @i: is the program itration determiner
+ * Return: 0
  */
 
 void print_array(int *a, int n)
