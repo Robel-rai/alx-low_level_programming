@@ -3,7 +3,7 @@
 /*
  * print_array - responsible for printing out the materials
  * @*a: int type array
- * @n: int 
+ * @n: int
  * Description: the program is going to print out an array.
  * It will be from the stored array deppending on the give int n
  * Return: 0
