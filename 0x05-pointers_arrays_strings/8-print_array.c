@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /*
- * print_array - responsible for printing out the materials 
+ * print_array - responsible for printing out the materials
  * Description: the program is going to print out an array.
  * It will be from the stored array deppending on the give int n
  *
