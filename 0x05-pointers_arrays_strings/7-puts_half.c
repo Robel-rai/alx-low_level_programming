@@ -5,6 +5,7 @@
  * @len: gets the starting number
  * @i: iteration program
  * @n: number of the half
+ * Description: If odd number of chars, print (length - 1) / 2
  */
 
 void puts_half(char *str)
