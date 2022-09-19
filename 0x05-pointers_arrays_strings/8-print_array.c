@@ -1,6 +1,5 @@
-#include "studo.h"
 #include "main.h"
-
+#include <stdio.h>
 /*
  * print_array - responsible for printing out the materials
  * @i: is the program itration determiner
