@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * rev_string - revers the string 
- * to uppercase
+ * rev_string - revers the string
  * @s: input string.
  * Return: the pointer to dest.
  */
