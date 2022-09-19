@@ -2,9 +2,10 @@
 
 /*
  * puts_half - prints the second half of the string
- * @len: gets the starting number
- * @i: iteration program
- * @n: number of the half
+ * @len: int
+ * @i: int
+ * @n: int
+ * @*str: char type array
  * Description: If odd number of chars, print (length - 1) / 2
  */
 
