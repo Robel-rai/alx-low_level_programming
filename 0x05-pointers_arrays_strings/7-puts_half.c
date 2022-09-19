@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /*
  * puts_half - function responsible for writing the 2nd half of a string
