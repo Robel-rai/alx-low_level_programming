@@ -5,7 +5,7 @@
  * @len: gets the starting number
  * @i: iteration program
  * @n: number of the half
- * Return: void
+ * Description: if striung size is odd the len+1/2 will solve it.
  */
 
 void puts_half(char *str)
