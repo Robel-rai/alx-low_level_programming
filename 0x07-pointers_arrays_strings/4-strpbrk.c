@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /*
  * _strspn - a function that searches a string for any of 
@@ -24,5 +24,5 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 
-	return (NULL);
+	return (0);
 }
