@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - a function that prints a string in reverse
- *@s: The main value 
+ *@s: The main value
  */
 
 void _print_rev_recursion(char *s)
