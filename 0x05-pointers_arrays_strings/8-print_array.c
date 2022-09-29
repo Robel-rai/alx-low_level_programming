@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - responsible for printing out the materials
- * @*a: int type array
+ * @a: int type array
  * @n: int
  * Description: the program is going to print out an array.
  * It will be from the stored array deppending on the give int n
