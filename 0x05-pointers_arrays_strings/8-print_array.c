@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/*
+/**
  * print_array - responsible for printing out the materials
  * @*a: int type array
  * @n: int
