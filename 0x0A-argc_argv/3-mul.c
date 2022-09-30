@@ -4,7 +4,7 @@
 * main - Countes the nunmber of the total argumets
 * @argc: counts the number of argumets
 * @argv: the string of all argumets
-* Return - 1 when error is present
+* Return: 0 - success.
 */
 
 int main (int argc, char* argv[])

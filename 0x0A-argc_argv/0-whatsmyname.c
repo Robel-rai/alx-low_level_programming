@@ -1,20 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - define argv
- * @argc: argumet counter
- * @argv: argumet vector
- *
- * Return - zero
+ * main - a program that prints its name, followed by a new line. 
+ * @argc: argumet counter.
+ * @argv: argumet vector.
+ * Return: 0 - success.
  */
  
- int main (int argc, char *argv[])
- {
-     int i;
-     
-    for (i = 0; i < argc; i++)
-     {
+int main (int argc, char *argv[])
+{
+   int i;
+   for (i = 0; i < argc; i++)
+   {
          printf ("%s\n", argv[i]);
-     }
- 	return (0);
+   }
+   return (0);
  }
