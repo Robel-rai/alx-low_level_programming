@@ -4,7 +4,7 @@
 * main - Countes the nunmber of the total argumets
 * @argc: counts the number of argumets
 * @argv: the string of all argumets
-* Return - zero
+* Return - 1 when error is present
 */
 
 int main (int argc, char* argv[])
@@ -19,11 +19,11 @@ int main (int argc, char* argv[])
             i++;
         }
         printf ("%d\n", mul);
+	return (0);
     }
     else
     {
 	    printf ("Error\n");
     		return (1);
     }
-    return (0);
 }
