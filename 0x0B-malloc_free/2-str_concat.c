@@ -11,7 +11,7 @@
 int _strlen(char *s)
 {
 	int size = 0;
-	
+
 	for (; s[size] != '\0'; size++)
 		;
 	return (size);
@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 	amunt1 = _strlen(s1);
 	amunt2 = _strlen(s2);
 	s = malloc((amunt1 + amunt2) * sizeof(char) + 1);
-	
+
 	if (s == 0)
 		return (0);
 
