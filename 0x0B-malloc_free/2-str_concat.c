@@ -44,7 +44,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; i <= amunt1 + amunt2; i++)
 	{
-		if (i < amun1)
+		if (i < amunt1)
 			s[i] = s1[i];
 		else
 			s[i] = s2[i - amunt1];
