@@ -17,10 +17,10 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	for (; str[amunt] != '\0'; size++)
+	for (; str[amunt] != '\0'; amunt++)
 		;
 
-	s = malloc(size * sizeof(*str) + 1);
+	s = malloc(amunt * sizeof(*str) + 1);
 
 	if (s == 0)
 	{
@@ -28,7 +28,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-		for (; i < size; i++)
+		for (; i < amunt; i++)
 			m[i] = str[i];
 	}
 	return (m);
