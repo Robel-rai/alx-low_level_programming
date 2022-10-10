@@ -1,18 +1,21 @@
+#include "dog.h"
+#include <stdlib.h>
 /**
  * struct dog - initializes the main function
- * @name: String type
- * @age: float type
- * @owner: string type
+ * @d: string type pointer.
+ * @name: String type.
+ * @age: float type.
+ * @owner: string type.
  *
  * Description - The function to intialize the function
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog *d
+	if (d = NULL)
 	{
-		char *n;
-		float a;
-		char *o;
-	};
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
