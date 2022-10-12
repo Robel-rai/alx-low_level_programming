@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	
+
 	while (n < nobytes)
 	{
 		printf("%02x", opc[n] & 0xFF);
