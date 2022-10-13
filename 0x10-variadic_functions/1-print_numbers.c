@@ -18,10 +18,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	while (index < n)
 	{
 		printf("%d", va_arg(nums, int));
-		
+
 		if (index != (n - 1) && separator != NULL)
 			printf("%s", separator);
-		
+
 		index ++;
 	}
 	printf("\n");
