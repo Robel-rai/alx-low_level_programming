@@ -17,14 +17,14 @@ unsigned int binary_to_uint(const char *b)
 	if (!b)
 		return (0);
 
-	for (count = 0; b != '\0'; count++)
+	for (count = 0; b[count] != '\0'; count++)
 		;
-	for (count--; deci = 1; count >= 0; len--; deci = deci * 2)
+	for (count--, deci = 1; count >= 0; count--, deci = deci * 2)
 	{
 		if (b[count] != '0' && b[count] != '1')
 			return (0);
 
-		if (b[len] & 1)
+		if (b[count] & 1)
 			sol = sol + deci;
 	}
 
