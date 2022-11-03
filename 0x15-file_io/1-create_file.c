@@ -24,7 +24,7 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 
-	for (nletters = 0; text_content[strleng]; strleng++)
+	for (strleng = 0; text_content[strleng]; strleng++)
 		;
 
 	rewrite = write(fd, text_content, strleng);
